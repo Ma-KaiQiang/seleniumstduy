@@ -13,18 +13,18 @@ class TestLog(object):
         self.logger1.setLevel(logging.INFO)
         self.fmt = logging.Formatter(
             '%(asctime)s---%(filename)s---%(funcName)s---%(levelname)s---%(lineno)d---%(message)s')
-        self.file_handle = logging.FileHandler(self.getPath())
+        self.file_handle = logging.FileHandler(self.get_log_path())
         self.file_handle.setLevel(logging.INFO)
         self.file_handle.setFormatter(self.fmt)
         self.logger1.addHandler(self.file_handle)
         # 文件名称
 
-    def getName(self):
+    def get_name(self):
         logName = time.strftime('%Y-%m-%d', time.localtime(time.time())) + '.log'
         return logName
 
-    def getPath(self):
-        logName = self.getName()
+    def get_log_path(self):
+        logName = self.get_name()
         logPath = os.path.join(os.path.dirname(__file__) + '/logs/' + logName)
         return logPath
 
