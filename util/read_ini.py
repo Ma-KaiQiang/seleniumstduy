@@ -20,7 +20,7 @@ class ReadConfig(object):
             if file_name is None:
                 self.cf.read(self.filename)
             else:
-                cf1 = self.cf.read(file_name)
+                self.cf.read(os.path.join(os.path.dirname(__file__) + '/../config/'+file_name))
             if node_ is None:
                 text = self.cf.get(self.node, key)
                 return text
