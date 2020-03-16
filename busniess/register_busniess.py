@@ -4,8 +4,6 @@ import sys
 sys.path.append(r"D:\student\pycharm\项目\seleniumstduy")
 from handle.register_handle import RegisterHandle
 
-from selenium import webdriver
-
 
 class RegisterBusniess():
 

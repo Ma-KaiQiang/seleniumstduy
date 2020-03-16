@@ -41,7 +41,10 @@ class TestCase(unittest.TestCase):
 
         # self.driver.get('http://sahitest.com/demo/promptTest.htm')
         # self.driver.get('http://sahitest.com/demo/dragDropMooTools.htm')
-        self.driver.get('http://sahitest.com/demo/selectTest.htm')
+        # self.driver.get('http://sahitest.com/demo/selectTest.htm')
+        # self.driver.get('http://sahitest.com/demo/keypress.htm')
+        # self.driver.get('http://sahitest.com/demo/reactpage/react.html'
+        self.driver.get('http://sahitest.com/demo/alertTest.htm')
         self.fd = FindElement(self.driver)
 
     def tearDown(self):
@@ -89,7 +92,7 @@ class TestCase(unittest.TestCase):
         select2_element = self.fd.get_element('select2', 'Node3', 'practice_element.ini')
         select3_element = self.fd.get_element('select3', 'Node3', 'practice_element.ini')
         select_element = self.fd.get_element('select', 'Node3', 'practice_element.ini')
-        #假如下拉类型不是select则需要二次定位法来选择各个选项
+        # 假如下拉类型不是select则需要二次定位法来选择各个选项
         # element_s = self.fd.get_element('select', 'Node3', 'practice_element.ini')
         # element_s.find_element_by_xpath('//*[@id="s2Id"]/option[3]').click()
         if WD(self.driver, 10).until(EC.visibility_of(select1_element)):
@@ -105,13 +108,35 @@ class TestCase(unittest.TestCase):
             # a=EC.element_selection_state_to_be(select1_element,WE.is_selected())
             time.sleep(3)
         # self.assertTrue(result)
-    # def
+
+    # key press
+    def test_04(self):
+        see_located = self.fd.get_located('SeeResult', 'Node4', 'practice_element.ini')
+        enter_here = self.fd.get_element('EnterHere', 'Node4', 'practice_element.ini')
+        check_submit = self.fd.get_element('CheckSubmit', 'Node4', 'practice_element.ini')
+        submit = self.fd.get_element('Submit', 'Node4', 'practice_element.ini')
+        keyup = self.fd.get_element('KeyUp', 'Node4', 'practice_element.ini')
+        keypress = self.fd.get_element('KeyPress', 'Node4', 'practice_element.ini')
+        if WD(self.driver, 10).until(EC.visibility_of_element_located(see_located), '有效时间内没有进入页面'):
+            AC(self.driver).send_keys_to_element(enter_here, '大家好').send_keys_to_element(check_submit, 'qiehuan').click(
+                submit).perform()
+            time.sleep(2)
+            AC(self.driver).key_down(Keys.CONTROL, enter_here).send_keys('a').key_up(Keys.CONTROL).send_keys(
+                Keys.BACKSPACE).send_keys('new').perform()
+            if WD(self.driver, 10).until(EC.visibility_of(keyup)):
+                AC(self.driver).click(keyup).send_keys(Keys.DOWN, Keys.DOWN, Keys.ENTER).perform()
+                time.sleep(2)
+                result = keypress.is_selected()
+                self.assertTrue(result)
+                time.sleep(2)
+
+    # alter test
+
+
 
 if __name__ == '__main__':
     # unittest.main()
     suite = unittest.TestSuite()
-    suite.addTest(TestCase('test_03'))
+    suite.addTest(TestCase('test_05'))
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
-    # t = TestCase()
-    # t.test_03()
