@@ -1,27 +1,26 @@
-# coding=utf-8
-from selenium.webdriver.common.action_chains import ActionChains as AC
-from selenium.webdriver.support.wait import WebDriverWait as WD
-import time
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.alert import Alert as AL
-from page.discover_page import DiscoverPage
+# coding:utf-8
+import sys
+
+sys.path.append(r"D:\student\pycharm\项目\seleniumstduy")
+from until.base_function import BaseFunction
+from page.alert_page import AlertPage
 from selenium.webdriver.common.keys import Keys
 
 
-class AlterBusniess(object):
+class AlterBusniess(BaseFunction):
     def __init__(self, driver):
         self.driver = driver
-        self.discover_p = DiscoverPage(self.driver)
+        self.alter_p = AlertPage(self.driver)
+        super(AlterBusniess, self).__init__(self.driver)
 
-    def alter_accept(self):
+    def __call__(self):
 
-        if WD(self.driver, 10).until(EC.title_is('Alert Test')):
-            AC(self.driver).key_down(Keys.CONTROL, self.discover_p('alter_input')).send_keys('a').key_up(
+        if self.get_result(title='Alert Test'):
+            self.action_chains().key_down(Keys.CONTROL, self.alter_p('Input')).send_keys('a').key_up(
                 Keys.CONTROL).send_keys(
-                Keys.BACKSPACE).send_keys_to_element(self.discover_p('alter_input'), 'test').click(
-                self.discover_p('alter_click')).perform()
-            time.sleep(2)
-            if WD(self.driver, 5).until(EC.alert_is_present()):
-                text = AL(self.driver).text
-                AL(self.driver).accept()
-                return text
+                Keys.BACKSPACE).send_keys_to_element(self.alter_p('Input'), 'test').click(
+                self.alter_p('ClickForAlert')).perform()
+        if self.get_result(alter='1'):
+            text = self.alter_('text')
+            self.alter_('accept')
+            return True

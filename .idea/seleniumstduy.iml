@@ -10,7 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/page" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/actionmethod" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/report" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/util" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/until" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/base_case" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/log/logs" isTestSource="false" />
