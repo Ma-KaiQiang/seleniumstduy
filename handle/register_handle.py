@@ -2,8 +2,6 @@
 from page.register_page import RegisterPage
 import sys
 sys.path.append(r"D:\student\pycharm\项目\seleniumstduy")
-# from selenium import webdriver
-# import time
 
 
 class RegisterHandle ( object ) :

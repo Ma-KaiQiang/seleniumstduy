@@ -8,14 +8,14 @@ from selenium.webdriver.support.wait import WebDriverWait
 from until.read_ini import ReadConfig
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-
+from selenium.webdriver.common.alert import Alert
 import time
 
 
 class FindElement():
     def __init__(self, driver):
         self.driver = driver
-
+        self.al = Alert(self.driver)
     # 获取元素
     def get_located(self, key, node=None, filename=None):
         rd = ReadConfig()
@@ -48,12 +48,9 @@ class BaseFunction(FindElement):
         return ac
 
     # 警告弹框操作
-    def alter_(self, func, value=None):
-
-        from selenium.webdriver.common.alert import Alert
-        self.al = Alert(self.driver)
-        getattr(self.al, func)
-
+    def alert_(self, func, value=None):
+        method=getattr(self.al, func)
+        return method
     # 全选删除
     def all_delete(self, element):
         self.action_chains().key_down(Keys.CONTROL, element).send_keys('a').key_up(Keys.CONTROL).send_keys(

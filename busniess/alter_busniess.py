@@ -5,6 +5,8 @@ sys.path.append(r"D:\student\pycharm\项目\seleniumstduy")
 from until.base_function import BaseFunction
 from page.alert_page import AlertPage
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.alert import Alert as al
+import time
 
 
 class AlterBusniess(BaseFunction):
@@ -21,6 +23,7 @@ class AlterBusniess(BaseFunction):
                 Keys.BACKSPACE).send_keys_to_element(self.alter_p('Input'), 'test').click(
                 self.alter_p('ClickForAlert')).perform()
         if self.get_result(alter='1'):
-            text = self.alter_('text')
-            self.alter_('accept')
-            return True
+            method=self.alert_('accept')
+            text = self.alert_('text')
+            method()
+            return text

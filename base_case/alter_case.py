@@ -11,7 +11,7 @@ class AlterCase(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.get('http://sahitest.com/demo/alertTest.htm')
-        self.driver.maximize_window()
+        # self.driver.maximize_window()
         self.alter_b = AlterBusniess(self.driver)
 
     def tearDown(self):
@@ -19,7 +19,7 @@ class AlterCase(unittest.TestCase):
 
     def test_01(self):
         text = self.alter_b()
-        self.assertTrue(text, '不匹配')
+        self.assertEqual(text, 'test')
 
 
 if __name__ == '__main__':

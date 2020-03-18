@@ -1,0 +1,6 @@
+2020-03-18 10:18:07,422---register_case.py---setUp---INFO---32---启动浏览器地址：https://sso.kedacom.com
+2020-03-18 10:18:07,775---register_case.py---test_add---INFO---46---输入用户名密码进行登录
+2020-03-18 10:18:08,201---register_case.py---tearDown---INFO---39---用例执行结束退出浏览器
+2020-03-18 10:18:12,785---register_case.py---setUp---INFO---32---启动浏览器地址：https://sso.kedacom.com
+2020-03-18 10:18:13,130---register_case.py---test_add---INFO---46---输入用户名密码进行登录
+2020-03-18 10:18:13,554---register_case.py---tearDown---INFO---39---用例执行结束退出浏览器

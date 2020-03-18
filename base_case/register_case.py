@@ -7,7 +7,7 @@ import os
 import HTMLTestRunnerCN
 import unittest
 import ddt
-from util.exceluntil import ExcelUntil
+from until.exceluntil import ExcelUntil
 from log.test_log import TestLog
 from busniess.register_busniess import RegisterBusniess
 

@@ -1,6 +1,6 @@
 # coding=utf-8
 from until.base_function import FindElement
-# from selenium import webdriver
+
 
 class RegisterPage(object):
     def __init__(self, driver):
