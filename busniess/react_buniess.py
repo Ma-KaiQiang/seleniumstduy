@@ -31,14 +31,15 @@ class ReactBusniess(BaseFunction):
             # return result(ReactPage('Text'))
 
 
-if __name__ == '__main__':
-    driver = webdriver.Chrome()
-    driver.get('http://sahitest.com/demo/reactpage/react.html')
-    driver.maximize_window()
-    r = ReactBusniess(driver)
-    result = r()
-    print(result)
-    driver.quit()
+# if __name__ == '__main__':
+    # driver = webdriver.Chrome()
+    # driver.get('http://sahitest.com/demo/reactpage/react.html')
+    # driver.maximize_window()
+    # r = ReactBusniess(driver)
+    # result = r()
+    # print(result)
+    # driver.quit()
+    # r=ReactBusniess()
 # if  WD(driver,5).until(EC.title_is('React Test')):
 #
 #     AC(driver).(1327,148).click().perform()

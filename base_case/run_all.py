@@ -7,6 +7,7 @@ casePath = os.path.dirname(__file__)
 reportPath = os.path.join(casePath + '/../report/discover_report.html')
 print(reportPath)
 
+
 def run_main():
     discover = unittest.defaultTestLoader.discover(casePath, '*case.py')
     return discover

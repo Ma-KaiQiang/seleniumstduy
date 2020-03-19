@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a13c57-faf5-474b-829e-2b90587d8e11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/actionmethod/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base_case/alter_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_case/alter_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_case/register_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_case/register_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/busniess/alter_busniess.py" beforeDir="false" afterPath="$PROJECT_DIR$/busniess/alter_busniess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handle/register_handle.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/register_handle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/register_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/register_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/base_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/until/base_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_case/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_case/run_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/busniess/react_buniess.py" beforeDir="false" afterPath="$PROJECT_DIR$/busniess/react_buniess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/log/test_log.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,19 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base_case/react_case.py">
+        <entry file="file://$PROJECT_DIR$/actionmethod/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="449">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base_case/alter_case.py">
+        <entry file="file://$PROJECT_DIR$/log/test_log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="627">
+              <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -42,80 +41,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base_case/register_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/busniess/register_busniess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handle/register_handle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding>
-                <element signature="e#15#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/register_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-312">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="152">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base_case/run_all.py">
+        <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/ddt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="2489">
+              <caret line="131" column="30" lean-forward="true" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
               <folding>
-                <element signature="e#15#30#0" expanded="true" />
+                <element signature="e#335#349#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+        <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-119839003/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="687" selection-start-line="687" selection-end-line="687" />
+            <state relative-caret-position="135">
+              <caret line="521" column="4" selection-start-line="521" selection-start-column="4" selection-end-line="521" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base_case/alter_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="e#825#838#0" expanded="true" />
+                <element signature="e#15#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/busniess/alter_busniess.py">
+        <entry file="file://$PROJECT_DIR$/log/logs/2020-03-19.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/until/base_function.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -152,7 +121,6 @@
         <option value="$PROJECT_DIR$/base_case/test_case.py" />
         <option value="$PROJECT_DIR$/config/LocalElement.ini" />
         <option value="$PROJECT_DIR$/util/exceluntil.py" />
-        <option value="$PROJECT_DIR$/log/test_log.py" />
         <option value="$PROJECT_DIR$/actionmethod/p'ractice.py" />
         <option value="$PROJECT_DIR$/util/read_ini.py" />
         <option value="$PROJECT_DIR$/base_case/alter.py" />
@@ -160,7 +128,6 @@
         <option value="$PROJECT_DIR$/base_case/run_all_case.py" />
         <option value="$PROJECT_DIR$/actionmethod/practice.py" />
         <option value="$PROJECT_DIR$/busniess/register_busniess.py" />
-        <option value="$PROJECT_DIR$/base_case/run_all.py" />
         <option value="$PROJECT_DIR$/page/discover_page.py" />
         <option value="$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" />
         <option value="$PROJECT_DIR$/config/practice_element.ini" />
@@ -170,22 +137,25 @@
         <option value="$PROJECT_DIR$/until/actionMethod.py" />
         <option value="$PROJECT_DIR$/until/base_until.py" />
         <option value="$PROJECT_DIR$/page/react_page.py" />
-        <option value="$PROJECT_DIR$/busniess/react_buniess.py" />
         <option value="$PROJECT_DIR$/page/alert_page.py" />
         <option value="$PROJECT_DIR$/until/base_function.py" />
         <option value="$PROJECT_DIR$/busniess/alter_busniess.py" />
-        <option value="$PROJECT_DIR$/base_case/alter_case.py" />
         <option value="$PROJECT_DIR$/base_case/register_case.py" />
         <option value="$PROJECT_DIR$/handle/register_handle.py" />
         <option value="$PROJECT_DIR$/page/register_page.py" />
+        <option value="$PROJECT_DIR$/base_case/run_all.py" />
+        <option value="$PROJECT_DIR$/busniess/react_buniess.py" />
+        <option value="$PROJECT_DIR$/actionmethod/test.py" />
+        <option value="$PROJECT_DIR$/log/test_log.py" />
+        <option value="$PROJECT_DIR$/base_case/alter_case.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="122" />
-    <option name="y" value="24" />
+    <option name="x" value="-229" />
+    <option name="y" value="33" />
     <option name="width" value="1669" />
-    <option name="height" value="915" />
+    <option name="height" value="892" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -195,6 +165,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+              <item name="actionmethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+              <item name="base_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+              <item name="busniess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
+              <item name="until" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -232,52 +259,6 @@
               <item name="seleniumstduy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\student\pycharm\项目\seleniumstduy" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
-              <item name="actionmethod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
-              <item name="base_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
-              <item name="busniess" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumstduy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumstduy" type="462c0819:PsiDirectoryNode" />
-              <item name="until" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_all">
+  <component name="RunManager" selected="Python.alter_case">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="seleniumstduy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -441,14 +422,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="seleniumstduy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\student\Python3.8\包\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actionmethod/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.react_case" />
       <item itemvalue="Python.alter_case" />
       <item itemvalue="Python.react_buniess" />
       <item itemvalue="Python.run_all" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.run_all" />
         <item itemvalue="Python.react_buniess" />
       </list>
@@ -487,7 +492,9 @@
       <workItem from="1584410189933" duration="20621000" />
       <workItem from="1584437582534" duration="12210000" />
       <workItem from="1584496515806" duration="3000" />
-      <workItem from="1584496535443" duration="1324000" />
+      <workItem from="1584496535443" duration="3036000" />
+      <workItem from="1584527600369" duration="7618000" />
+      <workItem from="1584583591106" duration="6183000" />
     </task>
     <servers />
   </component>
@@ -524,7 +531,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157402000" />
+    <option name="totallyTimeSpent" value="173024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,10 +543,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-196" y="63" width="1669" height="915" extended-state="0" />
+    <frame x="-519" y="382" width="1669" height="892" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27470478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28216285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -550,7 +557,7 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49844623" weight="0.3282353" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49347422" weight="0.34137514" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.7538844" visible="true" weight="0.5033025" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.7538844" visible="true" weight="0.506812" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49347422" weight="0.39570165" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -595,7 +602,7 @@
     <SUITE FILE_PATH="coverage/seleniumstduy$practice.coverage" NAME="practice Coverage Results" MODIFIED="1584352998525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
     <SUITE FILE_PATH="coverage/seleniumstduy$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1583843407240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
     <SUITE FILE_PATH="coverage/seleniumstduy$Unittests_in_alter_case_py.coverage" NAME="Unittests in alter_case.py Coverage Results" MODIFIED="1584453865274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
-    <SUITE FILE_PATH="coverage/seleniumstduy$alter_case.coverage" NAME="alter_case Coverage Results" MODIFIED="1584497756341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
+    <SUITE FILE_PATH="coverage/seleniumstduy$alter_case.coverage" NAME="alter_case Coverage Results" MODIFIED="1584602509783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
     <SUITE FILE_PATH="coverage/seleniumstduy$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1584497865858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
     <SUITE FILE_PATH="coverage/seleniumstduy$react_case.coverage" NAME="react_case Coverage Results" MODIFIED="1584445655418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
     <SUITE FILE_PATH="coverage/seleniumstduy$Unittests_for_register_case_RegisterCase.coverage" NAME="Unittests for register_case.RegisterCase Coverage Results" MODIFIED="1583827292734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
@@ -603,6 +610,7 @@
     <SUITE FILE_PATH="coverage/seleniumstduy$register_busniess.coverage" NAME="register_busniess Coverage Results" MODIFIED="1583842177162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/busniess" />
     <SUITE FILE_PATH="coverage/seleniumstduy$exceluntil.coverage" NAME="exceluntil Coverage Results" MODIFIED="1583834312965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/seleniumstduy$actionMethod.coverage" NAME="actionMethod Coverage Results" MODIFIED="1584005043455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
+    <SUITE FILE_PATH="coverage/seleniumstduy$test.coverage" NAME="test Coverage Results" MODIFIED="1584537874733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
     <SUITE FILE_PATH="coverage/seleniumstduy$register_case__1_.coverage" NAME="register_case (1) Coverage Results" MODIFIED="1583839396466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/busniess" />
     <SUITE FILE_PATH="coverage/seleniumstduy$react_page.coverage" NAME="react_page Coverage Results" MODIFIED="1584429495329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
     <SUITE FILE_PATH="coverage/seleniumstduy$register_case__2_.coverage" NAME="register_case (2) Coverage Results" MODIFIED="1583841236177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_case" />
@@ -612,41 +620,6 @@
     <SUITE FILE_PATH="coverage/seleniumstduy$register_handle.coverage" NAME="register_handle Coverage Results" MODIFIED="1583827119422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handle" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/xlrd/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8721">
-          <caret line="467" column="8" selection-start-line="467" selection-start-column="8" selection-end-line="467" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/selenium/webdriver/common/by.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/read_ini.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/selenium/webdriver/support/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/selenium/webdriver/support/ui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -787,23 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base_case/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_case/register_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="1" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -832,16 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handle/register_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding>
-            <element signature="e#15#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/practice_element.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -850,30 +796,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/until/find_element.py" />
-    <entry file="file://$PROJECT_DIR$/actionmethod/practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
-          <folding>
-            <element signature="e#15#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/busniess/react_buniess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/register_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/react_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -902,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/busniess/register_busniess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -916,13 +831,6 @@
           <folding>
             <element signature="e#788#849#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-119839003/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3591">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
         </state>
       </provider>
     </entry>
@@ -943,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base_case/react_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -960,23 +861,16 @@
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/until/base_function.py">
+    <entry file="file://$PROJECT_DIR$/busniess/register_busniess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/busniess/alter_busniess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="418">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="12749">
           <caret line="687" selection-start-line="687" selection-end-line="687" />
           <folding>
             <element signature="e#825#838#0" expanded="true" />
@@ -984,10 +878,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/until/base_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_case/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_case/react_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actionmethod/practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33060">
+          <caret line="1743" selection-start-line="1743" selection-end-line="1743" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/busniess/react_buniess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handle/register_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/register_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/busniess/alter_busniess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actionmethod/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/logs/2020-03-19.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/base_case/alter_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_case/register_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-119839003/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="521" column="4" selection-start-line="521" selection-start-column="4" selection-end-line="521" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Python3.8/包/Lib/site-packages/ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2489">
+          <caret line="131" column="30" lean-forward="true" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
+          <folding>
+            <element signature="e#335#349#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,15 +8,13 @@ import os
 
 
 class TestLog(object):
+
     def __init__(self):
         self.logger1 = logging.getLogger()
         self.logger1.setLevel(logging.INFO)
         self.fmt = logging.Formatter(
             '%(asctime)s---%(filename)s---%(funcName)s---%(levelname)s---%(lineno)d---%(message)s')
-        self.file_handle = logging.FileHandler(self.get_log_path())
-        self.file_handle.setLevel(logging.INFO)
-        self.file_handle.setFormatter(self.fmt)
-        self.logger1.addHandler(self.file_handle)
+
         # 文件名称
 
     def get_name(self):
@@ -29,6 +27,10 @@ class TestLog(object):
         return logPath
 
     def filehandle(self):
+        self.file_handle = logging.FileHandler(self.get_log_path())
+        self.file_handle.setLevel(logging.INFO)
+        self.file_handle.setFormatter(self.fmt)
+        self.logger1.addHandler(self.file_handle)
         return self.logger1
 
     def streamhandle(self):
