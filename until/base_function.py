@@ -16,6 +16,7 @@ class FindElement():
     def __init__(self, driver):
         self.driver = driver
         self.al = Alert(self.driver)
+
     # 获取元素
     def get_located(self, key, node=None, filename=None):
         rd = ReadConfig()
@@ -49,8 +50,9 @@ class BaseFunction(FindElement):
 
     # 警告弹框操作
     def alert_(self, func, value=None):
-        method=getattr(self.al, func)
+        method = getattr(self.al, func)
         return method
+
     # 全选删除
     def all_delete(self, element):
         self.action_chains().key_down(Keys.CONTROL, element).send_keys('a').key_up(Keys.CONTROL).send_keys(
