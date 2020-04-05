@@ -5,7 +5,6 @@ sys.path.append(r'D:\student\pycharm\��Ŀ\seleniumstduy')
 from page.react_page import ReactPage
 from base_function import BaseFunction
 from selenium.webdriver.common.keys import Keys
-from selenium import webdriver
 
 
 class ReactBusniess(BaseFunction):
@@ -25,7 +24,7 @@ class ReactBusniess(BaseFunction):
                     if result(react_page.get_react_located('NumberText')):
                         return True
 
-            return False
+        return False
 
             # result=self.get_result(text='100')
             # return result(ReactPage('Text'))

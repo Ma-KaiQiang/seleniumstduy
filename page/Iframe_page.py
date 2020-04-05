@@ -7,13 +7,14 @@ from until.base_function import BaseFunction
 
 class IframePage(BaseFunction):
     def __init__(self, driver):
+        print('1')
         self.driver = driver
         self.filename = 'practice_element.ini'
         self.node = 'Node7'
-        super(IframePage, self).__init__(self.driver)
+        super(IframePage, self).__init__(driver)
 
-    def get_ifame_element(self, key,):
-        print(self.node)
+    def get_ifame_element(self, key):
+
         return self.get_element(key, self.node, self.filename)
 
     def get_iframe_located(self, key):

@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>测试报告</title>
+    <title>下拉框测试报告</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2.1"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
@@ -121,22 +121,22 @@ function html_escape(s) {
 }
 </script>
 <div class='heading'>
-<h1 style="font-family: Microsoft YaHei">测试报告</h1>
+<h1 style="font-family: Microsoft YaHei">下拉框测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> makaiqiang</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-04-05 21:59:17</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:01:43.330613</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 5，通过 4，失败 1，通过率= 80.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-04-05 20:45:03</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:25.830472</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 1，错误 1，通过率= 0.00%</p>
 
-<p class='description'>浏览器：Chrom/平台：windows</p>
+<p class='description'>运行环境：Chrome/windows</p>
 </div>
 
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 80.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 4 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 5 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -156,67 +156,47 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='passClass warning'>
-    <td>alter_case.AlterCase</td>
-    <td class="text-center">1</td>
+<tr class='errorClass warning'>
+    <td>Select_Case</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
+    <td class="text-center">1</td>
     <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
 </tr>
 
-<tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_01</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr class='passClass warning'>
-    <td>react_case.ReactCase</td>
-    <td class="text-center">1</td>
-    <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
-</tr>
-
-<tr id='pt2_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_01</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr class='failClass warning'>
-    <td>register_case.RegisterCase</td>
-    <td class="text-center">2</td>
-    <td class="text-center">1</td>
-    <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c3',2)" class="detail" id='c3'>详细</a></td>
-</tr>
-
-<tr id='ft3_1' class='none'>
-    <td class='failCase'><div class='testcase'>test_add_1___makaiqiang_kedacom_com____mkq666____user_name_error____用户名检测失败__</div></td>
+<tr id='ft1_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_search</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_ft3_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft3_1'>失败</button>
-    <div id='div_ft3_1' class="collapse in" style="text-align:left">  -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
+    <div id='div_ft1_1' class="collapse in" style="text-align:left">  -->
 
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft3_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft3_1'>失败</button>
-    <div id='div_ft3_1' class="collapse in" style="text-align:left">
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
+    <div id='div_ft1_1' class="collapse in" style="text-align:left">
     <pre>
     
-ft3_1: Traceback (most recent call last):
-  File "D:\student\Python3.8\包\lib\site-packages\ddt.py", line 145, in wrapper
-    return func(self, *args, **kwargs)
-  File "D:\student\pycharm\项目\seleniumstduy\base_case\register_case.py", line 51, in test_add
-    self.assertFalse(text, value[3])
-AssertionError: True is not false : 用户名检测失败
+ft1_1: Traceback (most recent call last):
+  File "D:/student/pycharm/项目/seleniumstduy/base_case/select_case.py", line 23, in test_search
+    self.assertTrue(self.select_b())
+  File "D:\student\pycharm\项目\seleniumstduy\busniess\select_busniess.py", line 30, in __call__
+    assert select_p.search_id50
+  File "D:\student\Python3.8\包\lib\poium\page_objects.py", line 146, in __get__
+    return self.find(context)
+  File "D:\student\Python3.8\包\lib\poium\page_objects.py", line 134, in find
+    return self.webdriver_wait.until(self.ec.visibility_of(self.webelement))
+AttributeError: 'PageElement' object has no attribute 'webelement'
 Traceback (most recent call last):
-  File "D:\student\Python3.8\包\lib\site-packages\ddt.py", line 145, in wrapper
-    return func(self, *args, **kwargs)
-  File "D:\student\pycharm\项目\seleniumstduy\base_case\register_case.py", line 51, in test_add
-    self.assertFalse(text, value[3])
-AssertionError: True is not false : 用户名检测失败
+  File "D:/student/pycharm/项目/seleniumstduy/base_case/select_case.py", line 23, in test_search
+    self.assertTrue(self.select_b())
+  File "D:\student\pycharm\项目\seleniumstduy\busniess\select_busniess.py", line 30, in __call__
+    assert select_p.search_id50
+  File "D:\student\Python3.8\包\lib\poium\page_objects.py", line 146, in __get__
+    return self.find(context)
+  File "D:\student\Python3.8\包\lib\poium\page_objects.py", line 134, in find
+    return self.webdriver_wait.until(self.ec.visibility_of(self.webelement))
+AttributeError: 'PageElement' object has no attribute 'webelement'
 
 
     </pre>
@@ -224,32 +204,13 @@ AssertionError: True is not false : 用户名检测失败
     </td>
 </tr>
 
-<tr id='pt3_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_add_2___makaiqiang_kedacom_com____mkq67____user_password_error____密码检测失败__</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr class='passClass warning'>
-    <td>select_case.Select_Case</td>
-    <td class="text-center">1</td>
-    <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c4',1)" class="detail" id='c4'>详细</a></td>
-</tr>
-
-<tr id='pt4_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_search</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>5</td>
-    <td>4</td>
     <td>1</td>
     <td>0</td>
-    <td>通过率：80.00%</td>
+    <td>0</td>
+    <td>1</td>
+    <td>通过率：0.00%</td>
 </tr>
 </table>
 

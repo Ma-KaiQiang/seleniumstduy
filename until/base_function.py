@@ -37,8 +37,8 @@ class FindElement():
 
     # 获取已定位元素
     def get_element(self, key, node=None, filename=None):
-        gl = self.get_located(key, node, filename)
-        return self.driver.find_element(gl[0], gl[1])
+        by_type, value = self.get_located(key, node, filename)
+        return self.driver.find_element(by_type, value)
 
 
 class BaseFunction(FindElement):

@@ -29,9 +29,9 @@ class ExcelUntil:
 
     def next(self):
         if self.get_lines() >= 1:
-            for i in range(2):
-                self.excelList.append(self.table.row_values(i))
-                tu = tuple(self.excelList)
+            #使用列表推导式
+            self.excelList = [self.table.row_values(i) for i in range(2)]
+            tu = tuple(self.excelList)
             return tu
         else:
             print('excel表中没有数据')
