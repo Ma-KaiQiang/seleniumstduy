@@ -1,28 +1,42 @@
-# coding=utf-8
+# coding:utf-8
 import sys
 
 sys.path.append(r"D:\student\pycharm\项目\seleniumstduy")
-from handle.register_handle import RegisterHandle
+from page.register_page import RegisterPage
+from selenium import webdriver
 
 
-class RegisterBusniess():
-
+class RegisterBusniess(RegisterPage):
     def __init__(self, driver):
-        self.register_h = RegisterHandle(driver)
+        self.register_p = RegisterPage(driver)
+        super(RegisterBusniess, self).__init__(driver)
 
-    def user_base(self, name, password):
-        self.register_h.send_user_name(name)
-        self.register_h.send_user_password(password)
-        self.register_h.click_register_button()
+    def login(self, username, password):
+        assert self.get_title('科达云办公平台')
+        self.register_p.user_name.send_keys(username)
+        self.register_p.user_password.send_keys(password)
+        self.register_p.user_login_button.click()
 
-    def login_error(self, name, password, type):
-        self.user_base(name, password)
-        if self.register_h.get_user_text(type) == None:
+    def login_error(self, username, password, error_type, text):
+        self.login(username, password)
+        if error_type == '':
+            if self.get_title('科达云办公'):
+                return True
+            return False
+        result_text = getattr(self.register_p, error_type)
+        if result_text.text == text:
             return True
         else:
             return False
-# if __name__=="__main__":
-#     driver=webdriver.Chrome()
-#     driver.get('https://sso.kedacom.com')
-#     r=RegisterBusniess(driver)
-#     r.login_error('makaiqiang','mkq666','user_email_error')
+
+# if __name__ == "__main__":
+#     driver = webdriver.Chrome()
+#     r = RegisterBusniess(driver)
+#     try:
+#         driver.get('https://sso.kedacom.com')
+#         a = r.login_error('makaiqiang@kedacom.com', 'mkq666','','')
+#         print(a)
+#     except:
+#         raise
+#     finally:
+#         driver.close()

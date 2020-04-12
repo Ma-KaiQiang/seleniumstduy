@@ -1,0 +1,63 @@
+2020-04-12 17:26:43,266---register_case.py---setUp---INFO---32---启动浏览器地址：https://sso.kedacom.com
+2020-04-12 17:26:43,271---page_objects.py---find---INFO---129---用户名, 1 times search, ('xpath', '//input[@name="username"]') 
+2020-04-12 17:26:43,343---page_objects.py---find---INFO---129---密码, 1 times search, ('xpath', '//input[@name="password"]') 
+2020-04-12 17:26:43,422---page_objects.py---find---INFO---129---登录按钮, 1 times search, ('css selector', '#submit_login') 
+2020-04-12 17:26:43,496---page_objects.py---find---INFO---129---用户名错误提示信息, 1 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:26:43,508---page_objects.py---find---INFO---129---用户名错误提示信息, 2 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:26:43,516---page_objects.py---find---INFO---129---用户名错误提示信息, 3 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:26:44,184---register_case.py---tearDown---INFO---43---用例执行结束退出浏览器
+2020-04-12 17:26:44,184---register_case.py---tearDown---INFO---43---用例执行结束退出浏览器
+2020-04-12 17:28:17,763---register_case.py---setUp---INFO---32---启动浏览器地址：https://sso.kedacom.com
+2020-04-12 17:28:17,768---page_objects.py---find---INFO---129---用户名, 1 times search, ('xpath', '//input[@name="username"]') 
+2020-04-12 17:28:17,834---page_objects.py---find---INFO---129---密码, 1 times search, ('xpath', '//input[@name="password"]') 
+2020-04-12 17:28:17,915---page_objects.py---find---INFO---129---登录按钮, 1 times search, ('css selector', '#submit_login') 
+2020-04-12 17:28:17,995---page_objects.py---find---INFO---129---用户名错误提示信息, 1 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:28:18,004---page_objects.py---find---INFO---129---用户名错误提示信息, 2 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:28:18,014---page_objects.py---find---INFO---129---用户名错误提示信息, 3 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:28:18,681---register_case.py---tearDown---INFO---43---用例执行结束退出浏览器
+2020-04-12 17:28:18,681---register_case.py---tearDown---INFO---43---用例执行结束退出浏览器
+2020-04-12 17:30:06,169---register_case.py---setUp---INFO---32---启动浏览器地址：https://sso.kedacom.com
+2020-04-12 17:30:06,174---page_objects.py---find---INFO---129---用户名, 1 times search, ('xpath', '//input[@name="username"]') 
+2020-04-12 17:30:06,241---page_objects.py---find---INFO---129---密码, 1 times search, ('xpath', '//input[@name="password"]') 
+2020-04-12 17:30:06,313---page_objects.py---find---INFO---129---登录按钮, 1 times search, ('css selector', '#submit_login') 
+2020-04-12 17:30:06,378---page_objects.py---find---INFO---129---用户名错误提示信息, 1 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:30:06,390---page_objects.py---find---INFO---129---用户名错误提示信息, 2 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:30:06,396---page_objects.py---find---INFO---129---用户名错误提示信息, 3 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:30:07,161---register_case.py---tearDown---INFO---43---用例执行结束退出浏览器
+2020-04-12 17:30:07,161---register_case.py---tearDown---INFO---43---用例执行结束退出浏览器
+2020-04-12 17:31:02,411---register_case.py---setUp---INFO---33---启动浏览器地址：https://sso.kedacom.com
+2020-04-12 17:31:02,416---page_objects.py---find---INFO---129---用户名, 1 times search, ('xpath', '//input[@name="username"]') 
+2020-04-12 17:31:02,485---page_objects.py---find---INFO---129---密码, 1 times search, ('xpath', '//input[@name="password"]') 
+2020-04-12 17:31:02,563---page_objects.py---find---INFO---129---登录按钮, 1 times search, ('css selector', '#submit_login') 
+2020-04-12 17:31:02,629---page_objects.py---find---INFO---129---用户名错误提示信息, 1 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:31:02,641---page_objects.py---find---INFO---129---用户名错误提示信息, 2 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:31:02,646---page_objects.py---find---INFO---129---用户名错误提示信息, 3 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:31:03,368---register_case.py---tearDown---INFO---44---用例执行结束退出浏览器
+2020-04-12 17:31:03,368---register_case.py---tearDown---INFO---44---用例执行结束退出浏览器
+2020-04-12 17:34:34,773---register_case.py---setUp---INFO---33---启动浏览器地址：https://sso.kedacom.com
+2020-04-12 17:34:34,777---page_objects.py---find---INFO---129---用户名, 1 times search, ('xpath', '//input[@name="username"]') 
+2020-04-12 17:34:34,849---page_objects.py---find---INFO---129---密码, 1 times search, ('xpath', '//input[@name="password"]') 
+2020-04-12 17:34:34,927---page_objects.py---find---INFO---129---登录按钮, 1 times search, ('css selector', '#submit_login') 
+2020-04-12 17:34:35,013---page_objects.py---find---INFO---129---用户名错误提示信息, 1 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:34:35,024---page_objects.py---find---INFO---129---用户名错误提示信息, 2 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:34:35,030---page_objects.py---find---INFO---129---用户名错误提示信息, 3 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:34:35,701---register_case.py---tearDown---INFO---44---用例执行结束退出浏览器
+2020-04-12 17:34:35,701---register_case.py---tearDown---INFO---44---用例执行结束退出浏览器
+2020-04-12 17:38:40,810---register_case.py---setUp---INFO---33---启动浏览器地址：https://sso.kedacom.com
+2020-04-12 17:38:40,814---page_objects.py---find---INFO---129---用户名, 1 times search, ('xpath', '//input[@name="username"]') 
+2020-04-12 17:38:40,885---page_objects.py---find---INFO---129---密码, 1 times search, ('xpath', '//input[@name="password"]') 
+2020-04-12 17:38:40,959---page_objects.py---find---INFO---129---登录按钮, 1 times search, ('css selector', '#submit_login') 
+2020-04-12 17:38:41,027---page_objects.py---find---INFO---129---用户名错误提示信息, 1 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:38:41,040---page_objects.py---find---INFO---129---用户名错误提示信息, 2 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:38:41,047---page_objects.py---find---INFO---129---用户名错误提示信息, 3 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:38:41,717---register_case.py---tearDown---INFO---44---用例执行结束退出浏览器
+2020-04-12 17:38:41,717---register_case.py---tearDown---INFO---44---用例执行结束退出浏览器
+2020-04-12 17:40:07,015---register_case.py---setUp---INFO---33---启动浏览器地址：https://sso.kedacom.com
+2020-04-12 17:40:07,019---page_objects.py---find---INFO---129---用户名, 1 times search, ('xpath', '//input[@name="username"]') 
+2020-04-12 17:40:07,154---page_objects.py---find---INFO---129---密码, 1 times search, ('xpath', '//input[@name="password"]') 
+2020-04-12 17:40:07,232---page_objects.py---find---INFO---129---登录按钮, 1 times search, ('css selector', '#submit_login') 
+2020-04-12 17:40:36,022---page_objects.py---find---INFO---129---用户名错误提示信息, 1 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:40:36,034---page_objects.py---find---INFO---129---用户名错误提示信息, 2 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:40:36,044---page_objects.py---find---INFO---129---用户名错误提示信息, 3 times search, ('xpath', '//*[@id="msg"]') 
+2020-04-12 17:40:36,421---register_case.py---tearDown---INFO---44---用例执行结束退出浏览器
+2020-04-12 17:40:36,421---register_case.py---tearDown---INFO---44---用例执行结束退出浏览器
